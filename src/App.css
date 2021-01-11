@@ -1,0 +1,141 @@
+html, body, #root, .App {
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 90%;
+  margin:auto;
+  padding:15px;
+}
+
+.centerAlign{
+  text-align: center;
+}
+
+.nav-holder{
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05), inset 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+.eye-holder{
+  height: 24px;
+  float: right;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shelfHolder:not(:last-child){
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000000;
+}
+
+.bookContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bookHolder{
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.bookHolder img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Buttons Styling */
+.cust-primary-btn{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  width:140px;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin:20px;
+}
+
+.cust-primary-btn:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+  cursor: pointer;
+}
+
+.cust-warning-btn{
+  color:#ffffff;
+  background:#ff7f01; 
+  border:1px solid #ff7f01; 
+  width:140px;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin:20px;
+}
+
+.cust-warning-btn:hover{
+  color: #fff;
+  background:#d36a01; 
+  border:1px solid #e67403; 
+  cursor: pointer;
+}
+
+.cust-success-btn{
+  color:#ffffff;
+  background:#4CAF50; 
+  border:1px solid #4CAF50; 
+  width:180px;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin:20px;
+}
+
+.cust-success-btn:hover{
+  color:#ffffff;
+  background:#50c454; 
+  border:1px solid #50c454; 
+  width:140px;
+  cursor: pointer;
+}
+
+.modal-container{
+  padding:30px 15px;
+  width: 100%;
+  max-width: 450px;
+  border:1px solid #ccc;
+  margin: auto;
+  border-radius: 6px;
+  box-shadow: 0px 0px 0.625em 0.08em rgba(0, 0, 0, 0.05)
+}
+.contact-input{
+  min-width: 300px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .burger-holder{
+    height: 22px;
+  }
+
+  .eye-holder{
+    margin: 2px;
+  }
+}

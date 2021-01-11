@@ -1,0 +1,45 @@
+.viewPostModal {
+    .modalContainer {
+        width: 90%;
+        max-width: 400px;
+        height: 200px;
+    }
+    .modalHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+    .modalSubHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .avatar {
+        vertical-align: top;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .nameInfo {
+        padding-left: 5px;
+    }
+    .name {
+        font-weight: bold;
+    }
+    .timeInfo {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .modalMain {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: pre-wrap;
+    }
+}
